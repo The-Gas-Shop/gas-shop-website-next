@@ -119,7 +119,7 @@ export default function Maps() {
       <GoogleMapReact
         bootstrapURLKeys={{
           key: `${process.env.NEXT_PUBLIC_GOOGLE_API}`,
-          libraries: ["marker"],
+          libraries: ["places", "marker"],
         }}
         options={{
           mapId: process.env.NEXT_PUBLIC_GOOGLE_MAP_ID,
