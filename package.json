@@ -1,0 +1,46 @@
+{
+  "name": "next-app-mantine-tailwind-template",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "@hcaptcha/react-hcaptcha": "^1.12.0",
+    "@mantine/carousel": "^8.0.2",
+    "@mantine/core": "^8.0.0",
+    "@mantine/form": "^8.0.2",
+    "@mantine/hooks": "^8.0.0",
+    "@mantinex/mantine-logo": "^2.0.0",
+    "@tabler/icons-react": "^3.33.0",
+    "contentful": "^11.5.24",
+    "google-map-react": "^2.2.5",
+    "install": "^0.13.0",
+    "keen-slider": "^6.8.6",
+    "next": "^15.1.7",
+    "npm": "^11.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-preset-mantine": "^2.1.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.0.6",
+    "@types/google-map-react": "^2.1.10",
+    "@types/node": "^22.13.4",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "^15.1.7",
+    "eslint-config-prettier": "^8.10.0",
+    "postcss": "^8.5.2",
+    "prettier": "^3.5.1",
+    "tailwindcss": "^4.0.6",
+    "typescript": "^5.7.3"
+  },
+  "packageManager": "pnpm@9.15.5"
+}
